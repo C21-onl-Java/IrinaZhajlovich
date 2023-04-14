@@ -8,11 +8,10 @@ public class Bank {
         Scanner scanner = new Scanner(System.in);
         float sum = scanner.nextFloat();
         System.out.println("Введите количество месяцев");
-        Scanner input = new Scanner(System.in);
         int month = scanner.nextInt();
-        for (int i=month;i>0; i--){
-        sum += sum*7/100;
+        for (int i = month; i > 0; i--) {
+            sum += sum * 7 / 100;
         }
-        System.out.println("Сумма вклада с учетом процентов за "+month+" месяцев составит "+sum);
+        System.out.println("Сумма вклада с учетом процентов за " + month + " месяцев составит " + sum);
     }
 }
