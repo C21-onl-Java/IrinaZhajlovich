@@ -9,6 +9,6 @@ public class TaskOperators3 {
         int n = scanner.nextInt();
         if (n % 2 == 0) {
             System.out.println("Число четное");
-        }else System.out.println("Число нечетное");
+        } else System.out.println("Число нечетное");
     }
 }

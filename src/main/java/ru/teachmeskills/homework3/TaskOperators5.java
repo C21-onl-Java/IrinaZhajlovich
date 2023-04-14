@@ -7,7 +7,7 @@ public class TaskOperators5 {
         System.out.println("Введите число от 1 до 7");
         Scanner scanner = new Scanner(System.in);
         int colour = scanner.nextInt();
-        switch (colour){
+        switch (colour) {
             case 1:
                 System.out.println("Красный");
                 break;
