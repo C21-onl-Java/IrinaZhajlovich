@@ -10,17 +10,17 @@ public class HW4_3 {
         int sum1 = 0;
         int sum2 = 0;
         Random random = new Random();
-        for (int i = 0; i < 5; i++){
+        for (int i = 0; i < 5; i++) {
             array1[i] = random.nextInt(20);
-            sum1 +=array1[i];
+            sum1 += array1[i];
             array2[i] = random.nextInt(20);
-            sum2 +=array2[i];
+            sum2 += array2[i];
         }
         System.out.println(Arrays.toString(array1));
-        System.out.println("Среднее арифметическое первого массива: "+sum1/5);
+        System.out.println("Среднее арифметическое первого массива: " + sum1 / 5);
         System.out.println(Arrays.toString(array2));
-        System.out.println("Среднее арифметическое второго массива: "+sum2/5);
-        if (sum1>sum2) System.out.println("Среднее арифметическое первого массива больше");
+        System.out.println("Среднее арифметическое второго массива: " + sum2 / 5);
+        if (sum1 > sum2) System.out.println("Среднее арифметическое первого массива больше");
         else System.out.print("Среднее арифметическое первого массива меньше");
     }
 }
