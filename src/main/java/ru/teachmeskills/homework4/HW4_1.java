@@ -11,12 +11,12 @@ public class HW4_1 {
         int n = scanner.nextInt();
         int[] array = new int[10];
         Random random = new Random();
-        boolean test = false;
+        boolean isCorrect = false;
         int coount = 0;
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(20);
             if (array[i] == n) {
-                test = true;
+                isCorrect = true;
                 coount++;
             }
         }
@@ -29,7 +29,7 @@ public class HW4_1 {
                 j++;
             }
         }
-        if (!test) {
+        if (!isCorrect) {
             System.out.println("Такого числа в массиве нет");
         } else {
             System.out.println("Новый массив:");
