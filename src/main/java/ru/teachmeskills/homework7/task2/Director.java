@@ -1,4 +1,4 @@
-package ru.teachmeskills.homework7_2;
+package ru.teachmeskills.homework7.task2;
 
 public class Director implements Post {
     String name = "Director";

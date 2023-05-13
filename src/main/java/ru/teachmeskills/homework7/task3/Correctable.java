@@ -1,4 +1,4 @@
-package ru.teachmeskills.homework7_3;
+package ru.teachmeskills.homework7.task3;
 
 
 public interface Correctable {

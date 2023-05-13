@@ -1,6 +1,6 @@
-package ru.teachmeskills.homework7_3.financialInvoice;
+package ru.teachmeskills.homework7.task3.financialInvoice;
 
-import ru.teachmeskills.homework7_3.register.Register;
+import ru.teachmeskills.homework7.task3.register.Register;
 
 import java.util.Date;
 import java.util.Scanner;

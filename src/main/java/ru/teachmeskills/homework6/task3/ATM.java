@@ -1,4 +1,4 @@
-package ru.teachmeskills.homework6_3;
+package ru.teachmeskills.homework6.task3;
 
 public class ATM {
     private int countBanknote20;

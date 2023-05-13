@@ -1,4 +1,4 @@
-package ru.teachmeskills.homework6_1;
+package ru.teachmeskills.homework6.task1;
 
 import java.util.Scanner;
 

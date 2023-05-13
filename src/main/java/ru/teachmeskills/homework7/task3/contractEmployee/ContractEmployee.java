@@ -1,6 +1,6 @@
-package ru.teachmeskills.homework7_3.contractEmployee;
+package ru.teachmeskills.homework7.task3.contractEmployee;
 
-import ru.teachmeskills.homework7_3.register.Register;
+import ru.teachmeskills.homework7.task3.register.Register;
 
 import java.util.Date;
 import java.util.Scanner;

@@ -1,8 +1,8 @@
-package ru.teachmeskills.homework7_3;
+package ru.teachmeskills.homework7.task3;
 
-import ru.teachmeskills.homework7_3.contractDeliveryOfGoods.ContractDeliveryOfGoods;
-import ru.teachmeskills.homework7_3.contractEmployee.ContractEmployee;
-import ru.teachmeskills.homework7_3.financialInvoice.FinancialInvoice;
+import ru.teachmeskills.homework7.task3.contractDeliveryOfGoods.ContractDeliveryOfGoods;
+import ru.teachmeskills.homework7.task3.contractEmployee.ContractEmployee;
+import ru.teachmeskills.homework7.task3.financialInvoice.FinancialInvoice;
 
 
 public class Main {
