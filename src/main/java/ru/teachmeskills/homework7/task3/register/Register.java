@@ -1,6 +1,6 @@
-package ru.teachmeskills.homework7_3.register;
+package ru.teachmeskills.homework7.task3.register;
 
-import ru.teachmeskills.homework7_3.Correctable;
+import ru.teachmeskills.homework7.task3.Correctable;
 
 
 import java.util.Date;
