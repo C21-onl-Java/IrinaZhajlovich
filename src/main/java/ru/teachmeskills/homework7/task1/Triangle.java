@@ -13,13 +13,13 @@ public class Triangle extends Figure {
     }
 
     @Override
-    void ShowName() {
+    void showName() {
 
         System.out.println("Triangle");
     }
 
     @Override
-      double Perimeter() {
+      double calculatePerimeter() {
         return  sideA + sideB + sideC;
     }
 

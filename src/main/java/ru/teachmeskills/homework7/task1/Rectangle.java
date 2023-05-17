@@ -11,12 +11,12 @@ public class Rectangle extends Figure {
     }
 
     @Override
-    void ShowName() {
+    void showName() {
         System.out.println("Rectangle");
     }
 
     @Override
-    double Perimeter() {
+    double calculatePerimeter() {
         double perimeter = (length + width) * 2;
         return perimeter;
     }

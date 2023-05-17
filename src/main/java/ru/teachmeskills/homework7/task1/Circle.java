@@ -9,13 +9,13 @@ public class Circle extends Figure {
     }
 
     @Override
-    void ShowName() {
+    void showName() {
 
         System.out.println("Circle");
     }
 
     @Override
-    double Perimeter() {
+    double calculatePerimeter() {
         double perimeter = 2 * Math.PI * radius;
         return perimeter;
     }
