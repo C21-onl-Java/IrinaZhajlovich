@@ -1,4 +1,4 @@
-package ru.teachmeskills.homework7_1;
+package ru.teachmeskills.homework7.task1;
 
 public class Rectangle extends Figure {
     private double length;
@@ -11,12 +11,12 @@ public class Rectangle extends Figure {
     }
 
     @Override
-    void ShowName() {
+    void showName() {
         System.out.println("Rectangle");
     }
 
     @Override
-    double Perimeter() {
+    double calculatePerimeter() {
         double perimeter = (length + width) * 2;
         return perimeter;
     }

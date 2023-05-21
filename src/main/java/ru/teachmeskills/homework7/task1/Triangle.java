@@ -1,4 +1,4 @@
-package ru.teachmeskills.homework7_1;
+package ru.teachmeskills.homework7.task1;
 
 public class Triangle extends Figure {
     private double sideA;
@@ -13,13 +13,13 @@ public class Triangle extends Figure {
     }
 
     @Override
-    void ShowName() {
+    void showName() {
 
         System.out.println("Triangle");
     }
 
     @Override
-      double Perimeter() {
+      double calculatePerimeter() {
         return  sideA + sideB + sideC;
     }
 

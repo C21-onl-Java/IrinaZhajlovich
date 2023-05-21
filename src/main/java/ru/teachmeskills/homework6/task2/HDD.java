@@ -1,24 +1,26 @@
-package ru.teachmeskills.homework6_2;
+package ru.teachmeskills.homework6.task2;
 
-public class RAM {
+public class HDD {
     private String name;
     private int volume;
+    private String type;
 
-
-    public RAM() {
+    public HDD() {
 
     }
 
-    public RAM(String name, int volume) {
+    public HDD(String name, int volume, String type) {
         this.name = name;
         this.volume = volume;
+        this.type = type;
     }
 
     @Override
     public String toString() {
-        return "RAM{" +
+        return "HDD{" +
                 "name='" + name + '\'' +
                 ", volume=" + volume +
+                ", type='" + type + '\'' +
                 '}';
     }
 }

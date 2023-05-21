@@ -1,4 +1,4 @@
-package ru.teachmeskills.homework7_1;
+package ru.teachmeskills.homework7.task1;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,10 +10,10 @@ public class Main {
         figures[4] = new Circle(5);
         double allPerimeter = 0;
         for (Figure figure : figures) {
-            figure.ShowName();
+            figure.showName();
             System.out.println("Площадь фигуры: " + figure.Area());
-            System.out.println("Периметр фигуры: " + figure.Perimeter());
-            allPerimeter+=figure.Perimeter();
+            System.out.println("Периметр фигуры: " + figure.calculatePerimeter());
+            allPerimeter+=figure.calculatePerimeter();
         }
         System.out.println("=================================");
         System.out.println("Периметр всех фигур: "+allPerimeter);

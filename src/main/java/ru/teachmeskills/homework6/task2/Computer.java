@@ -1,4 +1,4 @@
-package ru.teachmeskills.homework6_2;
+package ru.teachmeskills.homework6.task2;
 
 public class Computer {
     private int cost;

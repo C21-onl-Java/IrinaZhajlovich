@@ -1,4 +1,4 @@
-package ru.teachmeskills.homework7_1;
+package ru.teachmeskills.homework7.task1;
 
 public class Circle extends Figure {
     private double radius;
@@ -9,13 +9,13 @@ public class Circle extends Figure {
     }
 
     @Override
-    void ShowName() {
+    void showName() {
 
         System.out.println("Circle");
     }
 
     @Override
-    double Perimeter() {
+    double calculatePerimeter() {
         double perimeter = 2 * Math.PI * radius;
         return perimeter;
     }
