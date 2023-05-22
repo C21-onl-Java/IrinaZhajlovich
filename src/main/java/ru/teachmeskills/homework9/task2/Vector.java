@@ -26,16 +26,16 @@ public abstract class Vector {
     public void calculateScalarMultiple() {
         System.out.println("=====================================");
         double[] coordinates2 = new double[dimension];
-        double[] coordinatesScalarMultiple = new double[dimension];
+        double coordinatesScalarMultiple = 0;
         for (int i = 0; i < dimension; i++) {
             coordinates2[i] = Math.round(Math.random() * 10);
-            coordinatesScalarMultiple[i] = coordinates[i] * coordinates2[i];
+            coordinatesScalarMultiple += coordinates[i] * coordinates2[i];
         }
         System.out.println("Координаты векторов:");
         System.out.println(Arrays.toString(coordinates));
         System.out.println(Arrays.toString(coordinates2));
         System.out.println("Скалярное произведение:");
-        System.out.println(Arrays.toString(coordinatesScalarMultiple));
+        System.out.println(coordinatesScalarMultiple);
     }
 
     public void calculateSum() {
