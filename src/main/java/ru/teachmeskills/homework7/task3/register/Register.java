@@ -2,7 +2,6 @@ package ru.teachmeskills.homework7.task3.register;
 
 import ru.teachmeskills.homework7.task3.Correctable;
 
-
 import java.util.Date;
 import java.util.Scanner;
 
