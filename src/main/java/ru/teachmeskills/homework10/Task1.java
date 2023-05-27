@@ -1,5 +1,9 @@
 package ru.teachmeskills.homework10;
 
+import ru.teachmeskills.homework11.task1.ClientException1;
+import ru.teachmeskills.homework11.task1.ClientException2;
+import ru.teachmeskills.homework11.task1.ClientException3;
+
 import static java.lang.System.*;
 
 public class Task1 {
@@ -35,24 +39,25 @@ public class Task1 {
         return "Letteers:" + showLetters(text).toString().toUpperCase();
     }
 
-    public static void compareLetters(String text) {
+    public static void compareLetters(String text) throws Exception{
         String[] splitText = text.split("-");
         String abc = "abc";
         if ((splitText[1].toLowerCase().equals(abc)) || (splitText[3].toLowerCase().equals(abc))) {
             out.println("Номер документа содержит abc");
-        } else out.println("Номер документа не содержит abc");
+        } throw new ClientException1();
     }
 
-    public static boolean compareFirstNumbers(String text) {
+    public static boolean compareFirstNumbers(String text)  throws ClientException2{
         String numbers = "555";
-        return numbers.equals(text.substring(0, 3));
+      if(numbers.equals(text.substring(0, 3))) return true;
+      throw new ClientException2();
     }
 
-    public static void compareLastBlock(String text) {
+    public static void compareLastBlock(String text) throws ClientException3 {
         String[] splitText = text.split("-");
         String lastSymbols = "1a2b";
         if (lastSymbols.equals(splitText[4])) {
             out.println("Номер документа заканчивается на последовательность 1a2b");
-        } else out.println("Номер документа не заканчивается на последовательность 1a2b");
+        } throw new ClientException3();
     }
 }
