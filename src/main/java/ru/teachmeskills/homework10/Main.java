@@ -6,10 +6,10 @@ import ru.teachmeskills.homework11.task1.ClientException3;
 public class Main {
     public static void main(String[] args) throws ClientException3 {
         String documentNumber = "1234-ACb-5678-def-1v2b";
-        System.out.println(Task1.showFirstTwoBlocksOfNumbers(documentNumber));
-        System.out.println(Task1.showMaskedNumber(documentNumber));
-        System.out.println(Task1.showLetters(documentNumber));
-        System.out.println(Task1.showLowerLetters(documentNumber));
+        System.out.println(Task1.getFirstTwoBlocksOfNumbers(documentNumber));
+        System.out.println(Task1.getMaskedNumber(documentNumber));
+        System.out.println(Task1.getLetters(documentNumber));
+        System.out.println(Task1.getLowerLetters(documentNumber));
         System.out.println(Task1.showUpperLetters(documentNumber));
         try {
             Task1.compareLetters(documentNumber);

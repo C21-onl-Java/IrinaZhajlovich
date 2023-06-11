@@ -8,13 +8,13 @@ import static java.lang.System.*;
 
 public class Task1 {
 
-    public static String showFirstTwoBlocksOfNumbers(String text) {
+    public static String getFirstTwoBlocksOfNumbers(String text) {
         String[] splitText = text.split("-");
         return String.join("-", splitText[0], splitText[2]);
     }
 
 
-    public static String showMaskedNumber(String text) {
+    public static String getMaskedNumber(String text) {
         String[] splitText = text.split("-");
         splitText[1] = "***";
         splitText[3] = splitText[1];
@@ -22,7 +22,7 @@ public class Task1 {
     }
 
     //XXXX-YYY-XXXX-YYY-XYXY
-    public static StringBuilder showLetters(String text) {
+    public static StringBuilder getLetters(String text) {
         StringBuilder letters = new StringBuilder(text);
         char ch = '/';
         letters.delete(0, 5).delete(3, 8).deleteCharAt(8).setCharAt(3, ch);
@@ -31,12 +31,12 @@ public class Task1 {
         return letters;
     }
 
-    public static String showLowerLetters(String text) {
-        return showLetters(text).toString().toLowerCase();
+    public static String getLowerLetters(String text) {
+        return getLetters(text).toString().toLowerCase();
     }
 
     public static String showUpperLetters(String text) {
-        return "Letteers:" + showLetters(text).toString().toUpperCase();
+        return "Letteers:" + getLetters(text).toString().toUpperCase();
     }
 
     public static void compareLetters(String text) throws Exception{
